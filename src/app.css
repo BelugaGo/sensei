@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Passion+One&family=Satisfy&display=swap');
+
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+   
+}
+ 
+html::-webkit-scrollbar {
+    display: none;
+}
+
+button {
+   box-shadow: 8.0px 16.0px 16.0px hsl(0deg 0% 0% / 0.25);
+   width: 200px;
+}
+
+.container {
+    position: relative;
+    bottom: -290px;
+}
+
+.text-container {
+    position: relative;
+    bottom: -50px;
+}
+
+h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 65px;
+    /* color: #aaa; */
+    /* text-shadow: 2px 2px 7px #aaa ; */
+    background: linear-gradient(90deg, #000, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s ease-in infinite;
+    background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+h6 {
+    
+    color: #ee7125;
+    font-family: 'Satisfy', cursive;
+    font-size: 36px;
+    text-shadow: 2px 2px 7px #ee7125;
+    letter-spacing: 3px;
+}
+
+
+img {
+    width: 450px;
+}
+
+h4 {
+    font-size: 51px;
+    position: relative;
+    bottom: -250px;
+    font-family: 'Kaushan Script', cursive;
+    color: #aaa;
+    text-shadow: 2px 3px 7px;
+}
+
+video {
+filter: blur(7px) brightness(0.5);
+    min-width: 100%; 
+    min-height: 100%; 
+
+    /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+    width: auto;
+    height: auto;
+
+    /* Center the video */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1; 
+
+}
+
+
+.video-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+}
+
+
+.long {
+    width: 400px;
+}
