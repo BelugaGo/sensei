@@ -14,13 +14,30 @@ html::-webkit-scrollbar {
 
 button {
    box-shadow: 8.0px 16.0px 16.0px hsl(0deg 0% 0% / 0.25);
-   width: 200px;
+   width: 150px;
+   
+}
+
+@media screen and (max-width: 480px) {
+    .btn-dark {
+        width: 130px;
+        font-size: 12px;
+       }
 }
 
 .container {
     position: relative;
     bottom: -290px;
 }
+
+@media screen and (max-width: 480px) {
+    .container {
+        position: relative;
+        bottom: -190px;
+    }
+    
+}
+
 
 .text-container {
     position: relative;
@@ -38,6 +55,12 @@ h1 {
     animation: animate 3s ease-in infinite;
     background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+ 
+@media  screen and (max-width: 480px) {
+    h1 {
+        font-size: 45px;
+    }
 }
 
 @keyframes animate {
@@ -58,9 +81,22 @@ h6 {
     letter-spacing: 3px;
 }
 
+@media screen and (max-width: 480px) {
+     h6 {
+        font-size: 26px;
+     }
+
+}
 
 img {
     width: 450px;
+}
+
+@media screen and (max-width: 480px) {
+    img {
+
+    width: 250px;
+    }
 }
 
 h4 {
@@ -70,6 +106,14 @@ h4 {
     font-family: 'Kaushan Script', cursive;
     color: #aaa;
     text-shadow: 2px 3px 7px;
+}
+
+@media screen and (max-width: 480px) {
+      h4 {
+        font-size: 24px;
+        position: relative;
+        bottom: -150px;
+      }
 }
 
 video {
@@ -102,5 +146,5 @@ filter: blur(7px) brightness(0.5);
 
 
 .long {
-    width: 400px;
+    width: 200px;
 }

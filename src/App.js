@@ -21,19 +21,19 @@ function App() {
       <div class="container text-center">
   <div class="row gy-5">
     <div class="col-6">
-      <button class="p-4 btn btn-dark" data-bs-toggle="modal" data-bs-target="#checklist">Do Your Checklist</button>
+      <button type='button' class="p-4 btn btn-dark" data-bs-toggle="modal" data-bs-target="#checklist">Checklist</button>
     </div>
     <div class="col-6">
-      <button class="p-4 btn btn-dark" data-bs-toggle="modal" data-bs-target="#scanner">Scan</button>
+      <button type='button' class="p-4 btn btn-dark" data-bs-toggle="modal" data-bs-target="#scanner">Scan</button>
     </div>
     <div class="col-6">
-      <button class="p-4 btn btn-dark btn" data-bs-toggle="modal" data-bs-target="#stack">Stack Neatly</button>
+      <button type='button' class="p-4 btn btn-dark" data-bs-toggle="modal" data-bs-target="#stack">Stack Neatly</button>
     </div>
     <div class="col-6">
-    <button class="p-4 btn btn-dark btn" data-bs-toggle="modal" data-bs-target="#clean">Keep It Clean</button>
+    <button  type='button' class="p-4 btn btn-dark" data-bs-toggle="modal" data-bs-target="#clean">Keep It Clean</button>
     </div>
     <div>
-    <button className=' long p-4 btn btn-dark' data-bs-toggle="modal" data-bs-target="#warehouse">After A Long Day</button>
+    <button type='button' className='long p-4 btn btn-dark' data-bs-toggle="modal" data-bs-target="#warehouse">After A Long Day</button>
     </div>
   </div>
   </div>
