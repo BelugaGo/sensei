@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sensei/static/css/main.68c9ac32.css",
-    "main.js": "/sensei/static/js/main.aed8cd7b.js",
+    "main.css": "/sensei/static/css/main.2c8e7325.css",
+    "main.js": "/sensei/static/js/main.0251a512.js",
     "static/media/Broly.mp4": "/sensei/static/media/Broly.e1242b00884a10556bd9.mp4",
     "static/media/warehouse.gif": "/sensei/static/media/warehouse.0c994f9cac601370fd55.gif",
     "static/media/cleaning.gif": "/sensei/static/media/cleaning.8d486caec579c281f44c.gif",
@@ -9,11 +9,11 @@
     "static/media/scanner.gif": "/sensei/static/media/scanner.42565289bd3f333fbefa.gif",
     "static/media/checklist.gif": "/sensei/static/media/checklist.c84a820d490b5493126d.gif",
     "index.html": "/sensei/index.html",
-    "main.68c9ac32.css.map": "/sensei/static/css/main.68c9ac32.css.map",
-    "main.aed8cd7b.js.map": "/sensei/static/js/main.aed8cd7b.js.map"
+    "main.2c8e7325.css.map": "/sensei/static/css/main.2c8e7325.css.map",
+    "main.0251a512.js.map": "/sensei/static/js/main.0251a512.js.map"
   },
   "entrypoints": [
-    "static/css/main.68c9ac32.css",
-    "static/js/main.aed8cd7b.js"
+    "static/css/main.2c8e7325.css",
+    "static/js/main.0251a512.js"
   ]
 }
