@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/sensei/static/css/main.f2e1e95b.css",
-    "main.js": "/sensei/static/js/main.61b2033e.js",
-    "static/media/Broly.mp4": "/sensei/static/media/Broly.e1242b00884a10556bd9.mp4",
-    "static/media/warehouse.gif": "/sensei/static/media/warehouse.0c994f9cac601370fd55.gif",
-    "static/media/cleaning.gif": "/sensei/static/media/cleaning.8d486caec579c281f44c.gif",
-    "static/media/vorikx.gif": "/sensei/static/media/vorikx.eb16e39db67c81160f6b.gif",
-    "static/media/scanner.gif": "/sensei/static/media/scanner.42565289bd3f333fbefa.gif",
-    "static/media/checklist.gif": "/sensei/static/media/checklist.c84a820d490b5493126d.gif",
-    "index.html": "/sensei/index.html",
-    "main.f2e1e95b.css.map": "/sensei/static/css/main.f2e1e95b.css.map",
-    "main.61b2033e.js.map": "/sensei/static/js/main.61b2033e.js.map"
+    "main.css": "/static/css/main.f2e1e95b.css",
+    "main.js": "/static/js/main.61694a03.js",
+    "static/media/Broly.mp4": "/static/media/Broly.e1242b00884a10556bd9.mp4",
+    "static/media/warehouse.gif": "/static/media/warehouse.0c994f9cac601370fd55.gif",
+    "static/media/cleaning.gif": "/static/media/cleaning.8d486caec579c281f44c.gif",
+    "static/media/vorikx.gif": "/static/media/vorikx.eb16e39db67c81160f6b.gif",
+    "static/media/scanner.gif": "/static/media/scanner.42565289bd3f333fbefa.gif",
+    "static/media/checklist.gif": "/static/media/checklist.c84a820d490b5493126d.gif",
+    "index.html": "/index.html",
+    "main.f2e1e95b.css.map": "/static/css/main.f2e1e95b.css.map",
+    "main.61694a03.js.map": "/static/js/main.61694a03.js.map"
   },
   "entrypoints": [
     "static/css/main.f2e1e95b.css",
-    "static/js/main.61b2033e.js"
+    "static/js/main.61694a03.js"
   ]
 }
